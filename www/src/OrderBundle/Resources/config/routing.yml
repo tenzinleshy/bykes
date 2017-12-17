@@ -1,3 +1,7 @@
-order_homepage:
-    path:     /
+order_order_homepage:
+    path:     /defaultOrder
     defaults: { _controller: OrderBundle:Default:index }
+
+order_order:
+    resource: '@OrderBundle/Controller/'
+    type: annotation

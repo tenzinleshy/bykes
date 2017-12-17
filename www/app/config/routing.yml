@@ -1,7 +1,3 @@
 order:
-    resource: "@OrderBundle/Resources/config/routing.yml"
+    resource: '@OrderBundle/Controller/'
     prefix:   /
-
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
