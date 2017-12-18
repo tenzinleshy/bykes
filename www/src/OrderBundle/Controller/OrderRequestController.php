@@ -33,10 +33,12 @@ class OrderRequestController extends Controller
         $customer->setEmail('email@email.com');
         $customer->setPhone('89064568778');
         $customer->addOrderRequest($orderRequest);
-        $specialist = new Specialist();
-        $specialist->setFirstName('Alex');
-        $specialist->setLastName('Chi');
-        $specialist->addOrderRequest($orderRequest);
+        $specialist = $this->getDoctrine()->getRepository(Specialist::class)->find(1);
+
+//        $specialist = new Specialist();
+//        $specialist->setFirstName('Alex');
+//        $specialist->setLastName('Chi');
+//        $specialist->addOrderRequest($orderRequest);
         $orderRequest->setCustomer($customer);
         $orderRequest->setSpecialist($specialist);
 

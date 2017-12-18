@@ -4,9 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c21505a2e20526518e16127416bc18c",
-    "content-hash": "ef2b06c400c884c081769a63604d4eb9",
+    "hash": "da2b031b61d33df8872f54e7557bfcb1",
+    "content-hash": "7c97b40d6c1ef0b53831b835bcb4d6f2",
     "packages": [
+        {
+            "name": "chd7well/bootstrap-wizard",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chd7well/bootstrap-wizard.git",
+                "reference": "610f4ba4d6fa3b46ce28c2adf44bbc15bb003d38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chd7well/bootstrap-wizard/zipball/610f4ba4d6fa3b46ce28c2adf44bbc15bb003d38",
+                "reference": "610f4ba4d6fa3b46ce28c2adf44bbc15bb003d38",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "chd7well\\plugins\\wizard\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Gabriel & Jason Gill",
+                    "email": "vadimg88@gmail.com",
+                    "homepage": "http://vadimg.com/"
+                },
+                {
+                    "name": "Christian Dumhart",
+                    "email": "christian.dumhart@chd.at",
+                    "homepage": "http://www.chd.at/"
+                }
+            ],
+            "description": "Bootstrap Wizard - Builds a wizard using a tabbalbe structure",
+            "homepage": "https://github.com/chd7well/bootstrap-wizard",
+            "keywords": [
+                "bootstrap",
+                "extended",
+                "jquery",
+                "modal",
+                "modal-popover",
+                "wizard"
+            ],
+            "time": "2015-02-20 19:46:44"
+        },
         {
             "name": "composer/ca-bundle",
             "version": "1.0.9",
